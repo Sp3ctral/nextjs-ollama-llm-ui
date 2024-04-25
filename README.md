@@ -1,38 +1,3 @@
-<div align="center">
-  <img src="ollama-nextjs-ui.gif">
-</div>
-
-<h1 align="center">
-  Fully-featured & beautiful web interface for Ollama LLMs
-</h1>
-
-<div align="center">
-  
-![GitHub Repo stars](https://img.shields.io/github/stars/jakobhoeg/nextjs-ollama-llm-ui)
-  
-</div>
-
-
-Get up and running with Large Language Models **quickly**, **locally** and even **offline**.
-This project aims to be the easiest way for you to get started with LLMs. No tedious and annoying setup required!
-
-# Features ✨
-
-- **Beautiful & intuitive UI:** Inspired by ChatGPT, to enhance similarity in the user experience.
-- **Fully local:** Stores chats in localstorage for convenience. No need to run a database.
-- **Fully responsive:** Use your phone to chat, with the same ease as on desktop.
-- **Easy setup:** No tedious and annoying setup required. Just clone the repo and you're good to go!
-- **Code syntax highligting:** Messages that include code, will be highlighted for easy access.
-- **Copy codeblocks easily:** Easily copy the highlighted code with one click.
-- **Download/Pull & Delete models:** Easily download and delete models directly from the interface.
-- **Switch between models:** Switch between models fast with a click.
-- **Chat history:** Chats are saved and easily accessed.
-- **Light & Dark mode:** Switch between light & dark mode.
-
-# Preview
-
-https://github.com/jakobhoeg/nextjs-ollama-llm-ui/assets/114422072/08eaed4f-9deb-4e1b-b87a-ba17d81b9a02
-
 # Requisites ⚙️
 
 To use the web interface, these requisites must be met:
@@ -47,7 +12,7 @@ To install and run a local environment of the web interface, follow the instruct
 **1. Clone the repository to a directory on your pc via command prompt:**
 
 ```
-git clone https://github.com/jakobhoeg/nextjs-ollama-llm-ui
+git clone https://github.com/sp3ctral/nextjs-ollama-llm-ui
 ```
 
 **2. Open the folder:**
@@ -56,7 +21,7 @@ git clone https://github.com/jakobhoeg/nextjs-ollama-llm-ui
 cd nextjs-ollama-llm-ui
 ```
 
-**3. Rename the `.example.env` to `.env`:**
+**3. Rename the `.example.env` to `.env` if it hasn't been already:**
 
 ```
 mv .example.env .env
@@ -81,26 +46,3 @@ npm run dev
 ```
 
 **5. Go to [localhost:3000](http://localhost:3000) and start chatting with your favourite model!**
-
-# Upcoming features
-
-This is a to-do list consisting of upcoming features.
-- ⬜️ Ability to send an image in the prompt to utilize vision language models.
-- ⬜️ Ability to regenerate responses
-- ⬜️ Import and export chats
-- ⬜️ Voice input support
-- ✅ Code syntax highlighting
-
-# Tech stack
-
-[NextJS](https://nextjs.org/) - React Framework for the Web
-
-[TailwindCSS](https://tailwindcss.com/) - Utility-first CSS framework
-
-[shadcn-ui](https://ui.shadcn.com/) - UI component built using Radix UI and Tailwind CSS
-
-[shadcn-chat](https://github.com/jakobhoeg/shadcn-chat) - Chat components for NextJS/React projects
-
-[Framer Motion](https://www.framer.com/motion/) - Motion/animation library for React
-
-[Lucide Icons](https://lucide.dev/) - Icon library
