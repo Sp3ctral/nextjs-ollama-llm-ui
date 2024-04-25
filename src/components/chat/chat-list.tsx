@@ -44,12 +44,12 @@ export default function ChatList({
           <Image
             src="/ollama.png"
             alt="AI"
-            width={60}
-            height={60}
-            className="h-20 w-14 object-contain dark:invert"
+            width={500}
+            height={500}
+            className="object-contain"
           />
           <p className="text-center text-lg text-muted-foreground">
-            How can I help you today?
+            Welcome to Marvin Ai!
           </p>
         </div>
       </div>
